@@ -17,10 +17,10 @@ def custom_sort(dictionaries, sort_key):
 
 # List of the dictionaries
 people = [
-    {"name": "Alice", "age": 25},
-    {"name": "Bob", "age": 30},
-    {"name": "Charlie", "age": 20},
-    {"name": "David", "age": 35}
+    {"name": "Alison", "age": 25},
+    {"name": "Becker", "age": 30},
+    {"name": "Christiano", "age": 20},
+    {"name": "Dado", "age": 35}
         ]
 # Display the output of the sorted list dictionaries based on the "name" key.
 print(custom_sort(people, "name")) 
